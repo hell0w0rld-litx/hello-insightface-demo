@@ -125,4 +125,4 @@ Fri Nov  8 15:33:05 2024
 
 [开源AI人脸识别项目insightface(六)-活体检测](https://mp.weixin.qq.com/s/3AaOgPCaN8OQjZzdb_WM-w)
 
-![扫码](http://img.cdn.codethink.vip/note/2024-11/22-22-48-40-7c335a7a55c8c3fc2722f23b836c279b-2f8021.png)
+<img src="https://github.com/hell0w0rld-litx/hello-insightface-demo/blob/main/img/qrcode.png" width="50%" height="50%">
