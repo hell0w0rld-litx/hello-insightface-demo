@@ -126,3 +126,71 @@ Fri Nov  8 15:33:05 2024
 [开源AI人脸识别项目insightface(六)-活体检测](https://mp.weixin.qq.com/s/3AaOgPCaN8OQjZzdb_WM-w)
 
 <img src="https://github.com/hell0w0rld-litx/hello-insightface-demo/blob/main/img/qrcode.png" width="50%" height="50%">
+
+
+
+
+
+## 其他
+
+```python
+pip list
+Package                Version
+---------------------- -----------
+albucore               0.0.23
+albumentations         1.4.24
+annotated-types        0.7.0
+certifi                2024.12.14
+charset-normalizer     3.4.1
+colorama               0.4.6
+coloredlogs            15.0.1
+contourpy              1.3.1
+cycler                 0.12.1
+Cython                 3.0.11
+easydict               1.13
+flatbuffers            24.12.23
+fonttools              4.55.3
+humanfriendly          10.0
+idna                   3.10
+imageio                2.36.1
+insightface            0.7.3
+joblib                 1.4.2
+kiwisolver             1.4.8
+lazy_loader            0.4
+matplotlib             3.10.0
+mpmath                 1.3.0
+networkx               3.4.2
+numpy                  1.26.4
+onnx                   1.17.0
+onnxruntime-gpu        1.18.0
+opencv-contrib-python  4.10.0.84
+opencv-python-headless 4.10.0.84
+packaging              24.2
+pillow                 11.1.0
+pip                    23.2.1
+prettytable            3.12.0
+protobuf               5.29.2
+pydantic               2.10.4
+pydantic_core          2.27.2
+pyparsing              3.2.1
+pyreadline3            3.5.4
+python-dateutil        2.9.0.post0
+PyYAML                 6.0.2
+requests               2.32.3
+scikit-image           0.25.0
+scikit-learn           1.6.0
+scipy                  1.15.0
+setuptools             68.2.0
+simsimd                6.2.1
+six                    1.17.0
+stringzilla            3.11.3
+sympy                  1.13.3
+threadpoolctl          3.5.0
+tifffile               2024.12.12
+tqdm                   4.67.1
+typing_extensions      4.12.2
+urllib3                2.3.0
+wcwidth                0.2.13
+wheel                  0.41.2
+```
+

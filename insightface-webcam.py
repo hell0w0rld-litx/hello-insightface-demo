@@ -28,6 +28,9 @@ det_size = (640, 640)
 
 # 加载人脸分析模型
 model = insightface.app.FaceAnalysis(root='./', allowed_modules=None, providers=['CUDAExecutionProvider'])
+# 使用小模型
+# model = insightface.app.FaceAnalysis(name='buffalo_s', root='./', allowed_modules=None, providers=['CUDAExecutionProvider'])
+
 # 准备模型检测参数
 model.prepare(ctx_id=gpu_id, det_thresh=det_thresh, det_size=det_size)
 
@@ -378,6 +381,7 @@ def recognition(image):
     face_features = load_faces(file_path)
 
     if len(face_features) == 0:  # 如果人脸库为空，则直接添加人脸到库中
+        print("人脸库为空，无法识别人脸")
         return ""
     else:
         draw_img = image
@@ -426,7 +430,13 @@ def open_camera():
             break
 
         new_frame = recognition(frame)
-        cv2.imshow('Webcam', new_frame)
+
+        if new_frame is not None and isinstance(new_frame, np.ndarray):
+            cv2.imshow('Webcam', new_frame)
+        else:
+            print("未识别")
+            cv2.imshow('Webcam', frame)
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
